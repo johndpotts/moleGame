@@ -1,0 +1,56 @@
+body{
+  background-image: url(images/grass.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+      cursor: url("images/hammer.png"), auto;
+
+}
+.moleButton{
+  background-color: transparent;
+  border-radius: 25%;
+  padding:15px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+header {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10 px;
+    text-shadow: 2px 1px #FFF;
+}
+
+h1{
+  font-size: 40px;
+}
+p{
+  font-size: 30px;
+}
+
+
+
+section {
+    display: flex;
+    margin-bottom: 10px;
+
+    width: 80%;
+    margin-left: 10%;
+}
+
+.box {
+  border: 2px solid black;
+  display: inline-block;
+  height: 200px;
+  width: 100%;
+  margin: 0 5px;
+}
+
+.mole {
+  background-image: url("images/mole.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+
+
+}
